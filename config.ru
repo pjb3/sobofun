@@ -2,7 +2,7 @@ require 'bundler/setup'
 Bundler.require
 
 use Rack::Static,
-  :urls => ["/images", "/js", "/css"],
+  :urls => ["/img", "/css"],
   :root => "."
 
 run lambda { |env|
